@@ -10,5 +10,5 @@ length = np.array([50.825, 50.851, 50.876, 50.902, 50.952, 51.003, 51.054, 51.18
 lines = plt.plot(strain(length), stress(force))
 plt.xlabel("strain")
 plt.ylabel("stress (MPa)")
-plt.setp(lines,marker = "o")
+plt.setp(lines, marker = "o")
 plt.show()
